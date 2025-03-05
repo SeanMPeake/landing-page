@@ -27,3 +27,40 @@ header {
     color: #E5E7Eb;
     text-decoration: none;
 }
+
+.hero {
+    display: flex;
+    justify-content: space-evenly
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;   
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7Eb;
+}
+
+.placeholder {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #E5E7Eb;
+}
