@@ -105,11 +105,31 @@ header {
     border-radius: 10px;
     width: 150px;
     height: 150px;
-    /* justify-self: center; */
 }
 
 .box-text {
     text-align: center;
     max-width: 150px;
     font-size: 12px;
+}
+
+/* section two */
+
+.section-two {
+    margin-bottom: 50px;
+    background-color: lightgray;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote {
+    max-width: 500px;
+    align-self: center;
+}
+
+.attribution {
+    align-self: flex-end;
+    margin-right: 300px;
 }
