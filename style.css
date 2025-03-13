@@ -9,11 +9,15 @@ body {
 
 header {
     background-color: #1f2937;
+    padding: 50px;
+
 }
 
 .header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .header-logo {
@@ -35,7 +39,8 @@ header {
 
 .hero {
     display: flex;
-    justify-content: space-evenly
+    justify-content: space-around;
+    gap: 50px;
 }
 
 .hero-left {
@@ -46,17 +51,20 @@ header {
 .hero-main {
     font-size: 48px;
     color: #F9FAF8;
-    font-weight: 900;   
+    font-weight: 900;  
+    line-height: 1em;
+    margin-bottom: 10px;
 }
 
 .hero-secondary {
     font-size: 18px;
     color: #E5E7Eb;
+    margin-bottom: 10px;
 }
 
 .placeholder {
     display: flex;
-    width: 300px;
+    width: 500px;
     height: 200px;
     background-color: grey;
     justify-content: center;
@@ -67,4 +75,8 @@ header {
     background-color: #3882F6;
     font-size: 18px;
     color: #E5E7Eb;
+    height: 40px;
+    width: 125px;
+    border-radius: 10px;
+    border: none;
 }
